@@ -1,0 +1,39 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style
+    style 
+      include ../static/style.css
+
+block content
+    
+  
+    section#introsection   
+      //- div  You Get Town Best Momos Here
+      div.small KING OF MoMos
+
+    section#missionsection 
+
+      h1  Our Mission
+      div.card
+        h3 Momos is Our Perfection
+        div.card-content
+          p YOU GET TOWN BEST MOMOS HERE!!!
+      div.card
+        h3 Eat The Way you Like
+
+        div.card-content
+          p EAT MOMOS IN YOUR WAY
+      div.card
+        h3 Expert Chef
+        div.card-content
+          p WE HAVE WORLD BEST CHEF !!!
+    section#sponsorsection
+
+      h1  Our Sponsor
+      div#sponsor
+        //- img(src="/static/img/l.png ",alt="sponsor image",class="spimage")
+        //- img(src="/static/img/logo2.png ",alt="sponsor image",class="spimage")
+        img(src="/static/img/logo3.png ",alt="sponsor image",class="spimage")
